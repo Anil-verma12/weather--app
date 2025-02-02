@@ -35,7 +35,7 @@ def gfg():
             return msg
         
     cur_temp,min_temp,max_temp = get_temp(city)
-    return render_template('home.html',ct=cur_temp, mi = min_temp, mx = max_temp, ci = city)
+    return render_template('Index.html',ct=cur_temp, mi = min_temp, mx = max_temp, ci = city)
 
     
 app.run(debug=True)

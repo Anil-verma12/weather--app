@@ -14,6 +14,11 @@ This project is a simple weather application that allows users to:
 - Search functionality to get weather details for any city.
 
 ## Technologies Used
+install all this library 
+- flask
+- requests
+
+
 - HTML, CSS, Bootstrap (Frontend)
 - Python, Flask (Backend)
 - OpenWeather API 
