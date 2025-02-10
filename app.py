@@ -38,4 +38,5 @@ def gfg():
     return render_template('Index.html',ct=cur_temp, mi = min_temp, mx = max_temp, ci = city)
 
     
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=False, host="0.0.0.0", port=5000)
