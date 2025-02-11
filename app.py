@@ -1,11 +1,13 @@
 from flask import Flask,render_template
 import requests
 from flask import request
+import os
 
 app = Flask(__name__)
 
 @app.route('/', methods=['GET','POST'])
 def gfg():
+    city = 'jaipur'
     if request.method == 'POST':
         city =request.form.get('city')
     else:
